@@ -4,7 +4,9 @@
 #Selection sort iterates all the elements and if the smallest element in the list is found then that number
 #is swapped with the first
 
-#Best O(n^2); Average O(n^2); Worst O(n^2)
+#Best->    O(n^2);
+#Average-> O(n^2); 
+#Worst->    O(n^2)
 
 def selectionSort(List):
     for i in range(len(List) - 1): #For iterating n - 1 times
@@ -17,5 +19,5 @@ def selectionSort(List):
     return List
 
 if __name__ == '__main__':
-    List = [3, 4, 2, 6, 5, 7, 1, 9]
+    List = [9, 2, 5, 1, 8, 7, 3, 4]
     print('Sorted List:',selectionSort(List))
