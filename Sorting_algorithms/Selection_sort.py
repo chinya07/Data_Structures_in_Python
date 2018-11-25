@@ -19,5 +19,5 @@ def selectionSort(List):
     return List
 
 if __name__ == '__main__':
-    List = [9, 2, 5, 1, 8, 7, 3, 4]
+    List = [9, 2, 5, 1, 8, 7, 3, 4, 6]
     print('Sorted List:',selectionSort(List))
